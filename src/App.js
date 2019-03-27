@@ -8,8 +8,8 @@ const App = () => (
   <div>
     <Route path='/' component={Navigation} />
     <Route path='/' exact component={Home}/>
-    <Route path='/contact' component={About}/>
-    <Route path='/' component={Contact}/>
+    <Route path='/about' component={About}/>
+    <Route path='/contact' component={Contact}/>
   </div>
 );
 
